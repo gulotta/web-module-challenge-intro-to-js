@@ -39,7 +39,15 @@ Do the following:
 
    HINT: no function required
 */
+let firstThing = 20;
+let secondThing = 30;
+if (firstThing != secondThing){
+  console.log('this is true');
+} else {
+  console.log('this is false')
+}
 
+console.log(firstThing);
 
 
 
@@ -55,6 +63,11 @@ Do the following:
    HINT: look up the Number method
 */
 
+let num1 = ('1999');
+if (num1 === '1999'); {
+  console.log(1999);
+}
+console.log (num1);
 
 
 
@@ -67,10 +80,14 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
+let a = (2);
+let b = (5);
+
 function multiply(num1, num2){
   return num1 * num2;
 }
 
+console.log(multiply(a,b));
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -83,10 +100,10 @@ Do the following:
  3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-  /*add your code here*/
+function dogYears(age){
+  return (age * 7);
 }
-
+console.log (dogYears(5));
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
